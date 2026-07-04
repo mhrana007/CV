@@ -31,7 +31,7 @@ export default function CV() {
       const pdfHeight = pdf.internal.pageSize.getHeight();
       const ratio = Math.min(pdfWidth / canvas.width, pdfHeight / canvas.height);
       const imgX = (pdfWidth - canvas.width * ratio) / 2;
-      let imgY = 0;
+      const imgY = 0;
 
       pdf.addImage(imgData, 'PNG', imgX, imgY, canvas.width * ratio, canvas.height * ratio);
       pdf.save('Mehedi_Hasan_CV_Generated.pdf');
