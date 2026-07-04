@@ -59,3 +59,8 @@ pnpm run dev
 ```shell
 pnpm run build
 ```
+**Public URL**
+
+```
+https://mhrana007.github.io/CV/
+```
